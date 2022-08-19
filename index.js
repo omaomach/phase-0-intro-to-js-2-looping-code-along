@@ -56,10 +56,11 @@ console.log(writeCards(["Guadalupe", "Ollie", "Aki"],'surprise'));
 // console.log(count++);
 
 function countDown(number) {
-    const num = number;
     for (let i = number; i >= 0;i--) {
         console.log(i);
     }
 }
+
+
 
 console.log(countDown(10));
